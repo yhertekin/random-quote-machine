@@ -1,4 +1,4 @@
-# Random Quote Machine - [Live](yhertekin-random-quote-machine.surge.sh)
+# Random Quote Machine - [Live](https://yhertekin-random-quote-machine.surge.sh/)
 
 A Random quote machine built with React.
 
