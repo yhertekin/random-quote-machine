@@ -46,3 +46,14 @@ p {
 #tweet-quote {
 	font-size: 40px;
 }
+
+@media only screen and (max-width: 768px) {
+	#quote-box {
+		width: 90vw;
+		margin: 30px;
+		padding: 10px;
+	}
+	#box {
+		padding: 10px;
+	}
+}

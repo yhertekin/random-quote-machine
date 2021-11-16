@@ -35,18 +35,20 @@ const App = () => {
 
 	return (
 		<div id="quote-box">
-			<div id="text">
-				<i className="fas fa-quote-right" id="quote-icon"></i>
-				<p>{quote}</p>
-			</div>
-			<div id="author">- {author}</div>
-			<div id="bottom">
-				<a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">
-					<i className="fab fa-twitter-square"></i>
-				</a>
-				<button id="new-quote" onClick={changeQuote}>
-					New quote
-				</button>
+			<div id="box">
+				<div id="text">
+					<i className="fas fa-quote-right" id="quote-icon"></i>
+					<p>{quote}</p>
+				</div>
+				<div id="author">- {author}</div>
+				<div id="bottom">
+					<a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">
+						<i className="fab fa-twitter-square"></i>
+					</a>
+					<button id="new-quote" onClick={changeQuote}>
+						New quote
+					</button>
+				</div>
 			</div>
 		</div>
 	);

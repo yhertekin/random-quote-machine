@@ -6,6 +6,10 @@ A Random quote machine built with React.
 
 ![desktop image of application](./pics/desktop.PNG)
 
+## Mobile
+
+![desktop image of application](./pics/mobile.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
